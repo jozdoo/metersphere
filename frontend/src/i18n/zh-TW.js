@@ -638,7 +638,7 @@ export default {
       input_azure_url: '請輸入 Azure Devops 地址',
       input_azure_organization_id: '請輸入 Azure 組織ID',
       use_tip_azure: 'Azure Devops 地址+令牌(賬戶設置-個人訪問令牌-創建令牌)',
-      jira_prompt_information:'該信息為通過Jira提交缺陷的用戶認證信息，若未填寫，則使用工作空間中配置的默認信息'
+      jira_prompt_information: '該信息為通過Jira提交缺陷的用戶認證信息，若未填寫，則使用工作空間中配置的默認信息'
     }
   },
   project: {
@@ -720,6 +720,20 @@ export default {
     test_case_custom_id_info: '測試用例自定義ID \n 用例ID默認為系統自增ID',
     scenario_custom_id: '場景自定義ID',
     scenario_custom_id_info: '場景自定義ID \n 場景用例ID默認為系統自增ID',
+    version: {
+      name: '版本',
+      create_version: '創建版本',
+      edit_version: '編輯版本',
+      version_closed: '已關閉',
+      version_open: '未關閉',
+      publish_time: '發佈時間',
+      start_time: '開始時間',
+      end_time: '結束時間',
+      delete_version: '刪除版本',
+      please_input_version: '請輸入版本',
+      tips: '注意: 已關閉的版本不會出現在系統字段<strong>版本</strong>下拉框選項中',
+      enable: '啟用版本管理',
+    }
   },
   member: {
     create: '添加成員',
@@ -1048,7 +1062,7 @@ export default {
         update_time: "更新時間"
       },
       expect_detail: "期望詳情",
-      request_condition:"請求觸發條件",
+      request_condition: "請求觸發條件",
       base_info: "基本信息",
       req_param: "請求參數",
       rsp_param: "響應內容",
@@ -1080,7 +1094,7 @@ export default {
       create_tip: "註: 詳細的接口信息可以在編輯頁面填寫",
       api_import: "接口導入",
       check_select: "請勾選接口",
-      api_project:"所屬項目",
+      api_project: "所屬項目",
       select_comp: {
         no_data: "無數據",
         add_data: "去添加"
@@ -1263,9 +1277,9 @@ export default {
         select_table: "選擇可見數據",
         select_all: "選擇全部數據",
         check_case: "請勾選場景用例",
-        api_none:"原始API不存在",
-        case_none:"原始CASE不存在",
-        num_none:"原始場景不存在"
+        api_none: "原始API不存在",
+        case_none: "原始CASE不存在",
+        num_none: "原始場景不存在"
       },
       report_name_info: '請輸入報告名稱',
       save_case_info: '請先保存用例',
@@ -2160,7 +2174,7 @@ export default {
       title: "缺陷標題",
       description: "缺陷描述",
       status: "缺陷狀態",
-      issue_project:"所屬項目",
+      issue_project: "所屬項目",
       platform: "平臺",
       operate: "操作",
       close: "關閉缺陷",
@@ -2454,7 +2468,7 @@ export default {
     before_change: "變更前",
     after_change: "變更後",
     share: "分享",
-    change_history: "變更歷史",
+    change_history: "變更記錄",
     change_content: "變更內容"
   },
   plugin: {
